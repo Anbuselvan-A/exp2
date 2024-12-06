@@ -1,7 +1,7 @@
 trigger:
 - main
 
-pool: Default
+pool: arthi
 
 steps:
 - script: echo "Stage 1 - Setting up Java version."
