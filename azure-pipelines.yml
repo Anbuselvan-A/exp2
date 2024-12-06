@@ -9,8 +9,6 @@ steps:
 
 - task: Maven@3
   inputs:
-    mavenVersionOption: 'Specific'
-    mavenVersion: '3.9.9'  # Specify Maven 3.9.9
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
